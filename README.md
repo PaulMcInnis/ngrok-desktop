@@ -25,7 +25,7 @@ A SwiftBar plugin to control ngrok from your macOS menu bar.
 
 2. Copy the plugin to your SwiftBar plugins folder:
    ```bash
-   P="$(defaults read com.ameba.SwiftBar PluginDirectory)/ngrok.10s.sh" && curl -o "$P" https://raw.githubusercontent.com/PaulMcInnis/ngrok-desktop/main/ngrok.10s.sh && chmod +x "$P"
+   P="$(defaults read com.ameba.SwiftBar PluginDirectory)/ngrok.3s.sh" && curl -o "$P" https://raw.githubusercontent.com/PaulMcInnis/ngrok-desktop/main/ngrok.3s.sh && chmod +x "$P"
    ```
 
 ## Usage

@@ -41,5 +41,5 @@ fi
 echo "---"
 
 # Start/stop actions
-echo "Start ngrok on localhost:3000 | bash=\"$NGROK_BIN\" param1='http' param2='3000' terminal=false refresh=true"
+echo "Start ngrok on localhost:3000 | bash=\"$NGROK_BIN\" param1='http' param2='3000' terminal=false"
 echo "Stop ngrok           | bash='pkill' param1='ngrok' terminal=false refresh=true"
