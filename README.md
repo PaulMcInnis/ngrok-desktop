@@ -1,6 +1,6 @@
 # ngrok Desktop
 
-![preview](https://raw.githubusercontent.com/PaulMcInnis/ngrok-desktop/main/preview.png)
+<img src="https://raw.githubusercontent.com/PaulMcInnis/ngrok-desktop/main/preview.png" width="300">
 
 A SwiftBar plugin to control ngrok from your macOS menu bar.
 
