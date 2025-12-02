@@ -18,11 +18,15 @@ A SwiftBar plugin to control ngrok from your macOS menu bar.
 
 ## Install
 
-```bash
-git clone https://github.com/PaulMcInnis/ngrok-desktop.git
-cd ngrok-desktop
-./install.sh
-```
+1. Install [SwiftBar](https://swiftbar.app):
+   ```bash
+   brew install --cask swiftbar
+   ```
+
+2. Copy the plugin to your SwiftBar plugins folder:
+   ```bash
+   P="$(defaults read com.ameba.SwiftBar PluginDirectory)/ngrok.10s.sh" && curl -o "$P" https://raw.githubusercontent.com/PaulMcInnis/ngrok-desktop/main/ngrok.10s.sh && chmod +x "$P"
+   ```
 
 ## Usage
 
